@@ -1,0 +1,14 @@
+.button{
+    align-self: center;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    padding: 6px;
+    font-size: 18px;
+    background: transparent;
+    transition: 0.1s;
+}
+.button:hover{
+    color: rgb(255, 209, 209);
+    scale: 1.1;
+}

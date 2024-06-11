@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.post-list{
+  border: 2px solid wheat;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: rgba(200, 115, 220, 0.134);
+  padding: 30px;
+}
+.post{
+  gap: 10px;
+  align-items: baseline;
+  font-size: 17px;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 15px;
+  color:rgb(255, 255, 255);
+  background: #0000005a;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.post-form{
+  border: 2px solid rgb(160, 154, 154);
+  margin-top: 20px;
+  width: 400px;
+  background: #00000025;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.post-form input{
+  font-size: 17px;
+  padding: 5px;
+}
+.post-form button{
+  border-radius: 15px;
+  padding: 6px;
+  font-size: 18px;
+}
+.select{
+  border-radius: 15px;
+  text-align: center;
+  font-size: 18px;
+  width: 150px;
+}
+.layer-modal{
+  display: flex;
+  background: #00000052;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+.modal{
+  border-radius: 15px;
+  background: white;
+  padding: 11px;
+}
+.add-post-btn{
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 20px;
+}
+.input{
+  border-radius: 15px;
+  font-size: 18px;
+  padding: 6px;
+}
